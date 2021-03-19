@@ -1,2 +1,3 @@
 # WEB-Final-Project
 This is the final project for the web technologies subject perfomed by Duldiyev Raiymbek and Kopzhassarova Dana. Teacher: Rassul Kairgeldin. 
+We created fake API and json database, where data was was sent to and got from. In the login page if the username and password correspond to thw json database, the user enters the account and pages search&favorites are now diasplayed. In the registration page we created javascript code that  checks whether the email and password are in valid format. We also created json server with node JS and worked successfully with database, but didn't implement this in the final project. To regret, we could not create javascript to favorites page. For the website design we used Bootstrap with combination of CSS unique file.
