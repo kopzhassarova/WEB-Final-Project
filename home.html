@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>tesla</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-sm bg-white navbar-dark justify-content-center">
+          <a class="navbar-brand" href="home.html" style="padding-right: 400px;">
+              <img src="https://tgraph.io/file/62e05c6ff8718a63b3be2.jpg" style="width:40px;">
+          </a>
+          <ul class="navbar-nav">
+              <li class="nav-item" style="padding-right: 40px;">
+                  <a class="nav-link" href="home.html" style="color: black;">MAIN</a>
+              </li>
+              <li class="nav-item" style="padding-left: 40px; padding-right: 40px;">
+                  <a class="nav-link displaythem" href="fav.html" style="color: black;" id="favorites2">FAVORITES</a>
+              </li>
+              <li class="nav-item" style="padding-left: 40px;">
+                  <a class="nav-link displaythem" href="search.html" style="color: black;" id="search2">SEARCH</a>
+              </li>
+              <li class="nav-item" style="padding-left: 40px;">
+                  <a class="nav-link" href="login.html" style="color: black;">LOGIN</a>
+              </li>
+              <li class="nav-item" style="padding-left: 40px;">
+                  <a class="nav-link" href="signup.html" style="color: black;">SIGN UP</a>
+              </li>
+              <li class="nav-item" style="padding-left: 40px;">
+                  <div class="dropdown" style="color:black">
+                      <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                          English
+                      </button>
+                      <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#" onclick="toRus()">Russian</a>
+                          <a class="dropdown-item" href="#" onclick="toQaz()">Qazaq</a>
+                      </div>
+                  </div>
+              </li>
+          </ul>
+      </nav>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div style="align-self:center;height:700px;" class="carousel-inner">
+              <div class="carousel-item active">
+                  <img style="width:100%" src="https://cars-n.com/wp-content/uploads/2015/02/01-2012-tesla-model-s-fd-1347336745.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img style="width:100%" src="https://wallpaperaccess.com/full/2461498.jpg">
+              </div>
+              <div class="carousel-item">
+                  <img style="width:100%" src="https://s1.cdn.autoevolution.com/images/gallery/TESLA-MOTORS-Model-S-4693_89.jpg">
+              </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+
+      </div>
+      <div class="container div1">
+          <h1 style="font-size: 70px; font-weight: bold;" id="t1">MEET NEW TESLA</h1><br>
+          <div class="row" style="background-color: none; height: 360px;">
+              <div class="col-lg-4" style="background-color: none; height: 100%;">
+                  <div class="card img-fluid" style="width:500px; border: none; outline: none;">
+                      <img class="card-img-top" src="https://cars-n.com/wp-content/uploads/2015/02/01-2012-tesla-model-s-fd-1347336745.jpg" alt="Card image" style="width:100%;">
+                      <div class="card-img-overlay">
+                          <h4 class="card-title" id="t2">FAST</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4" style="background-color: none; height: 100%;">
+                  <div class="card img-fluid" style="width:500px; border: none; outline: none;">
+                      <img class="card-img-top" src="https://avtovesti.com/wp-content/uploads/2020/06/J1ebFULlzpRhx4H57sMep3gEPCs4z-flEVrbtArL77fanyJ6wk17BcTKJZntxhGgo5PJvV0K9sqcAA3UP5IEVWYRkhdavY3CI5_D6ffNTOR5Dmx3bJqgvBpd36YLz_fpz6QfFLI4HHintlb_lIYV-PPOg_cCR5nz.jpg" alt="Card image" style="width:100%">
+                      <div class="card-img-overlay">
+                          <h4 class="card-title" id="t3">POWERFUL</h4>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4" style="background-color: none; height: 100%;">
+                  <div class="card img-fluid" style="width:500px; border: none; outline: none;">
+                      <img class="card-img-top" src="https://fainaidea.com/wp-content/uploads/2020/02/Tesla-Model-S-Novitec-5.jpg" alt="Card image" style="width:100%">
+                      <div class="card-img-overlay">
+                          <h4 class="card-title" id="t4">DURABLE</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <hr>
+      <div class="container div2">
+          <div class="row" style="background-color: none; height: 385px;">
+              <div class="col-lg-2" style="background-color: none; height: 100%;"></div>
+              <div class="col-lg-4 text1" style="background-color: none; height: 100%;">
+                  <h3 >TESLA</h3>
+                  <p><span id="t51">AFFORDABLE</span><br/><span id="t52">NEVER</span><br /><span id="t53">LOOKED</span><br /><span id="t54">SO</span><br /><span id="t55">GOOD</span></p>
+                  <button type="button" class="btn btn-primary btn-lg button1" id="t6">See the models</button>
+              </div>
+              <div class="col-lg-4" style="background-color: none; height: 100%; background-image: url('https://cdn1.vogel.de/unsafe/fit-in/1000x0/images.vogel.de/vogelonline/bdb/1071900/1071915/original.jpg'); background-size: 385px; ">
+              </div>
+              <div class="col-lg-2" style="background-color: none; height: 100%;"></div>
+          </div>
+      </div><br><br>
+      <hr>
+      <br><br>
+      <div class="container div3">
+          <div class="row" style="background-color: none; height: 80%;">
+              <div class="col-lg-4 padd2" style="background-color: none; height: 100%;">
+                  <img src="https://www.beatsbydre.com/content/dam/beats-support/global/images/featured-resources/beats-serial-number.png.large.1x.png" style="width: 80px; margin-bottom: 20px;">
+                  <h4 id="t7">Find your serial number</h4>
+                  <p id="t8">If you want to be sure you have 100% original Tesla producy, search the license by your serial number</p>
+              </div>
+              <div class="col-lg-4 padd2" style="background-color: none; height: 100%;">
+                  <img src="images/warranty.png" style="width: 80px; margin-bottom: 20px;">
+                  <h4 id="t9">Service and warranty</h4>
+                  <p id="t10">Learn more about what’s covered under your warranty, service options, and repair pricing.</p>
+              </div>
+              <div class="col-lg-4 padd2" style="background-color: none; height: 100%;">
+                  <img src="images/app.png" style="width: 80px; margin-bottom: 20px;">
+                  <h4 id="t11">Download our app</h4>
+                  <p id="t12">Download the Tesla app for iPhone and Android to control and remotely monitor your Tesla products</p>
+              </div>
+          </div>
+          <div class="row" style="background-color: none; height: 20%;">
+              <div class="col-lg-4 padd2" style="background-color: none; height: 100%;">
+                  <a href="#" style="font-weight: bold; font-size: 16px;" id="t13">FIND SERIAL NUMBER</a>
+              </div>
+              <div class="col-lg-4 padd2" style="background-color: none; height: 100%;">
+                  <a href="#" style="font-weight: bold; font-size: 16px;" id="t14">VIEW SERVICE AND WARRANTY</a>
+              </div>
+              <div class="col-lg-4 padd2" style="background-color: none; height: 100%;">
+                  <a href="#" style="font-weight: bold; font-size: 16px;" id="t15">INSTALL NOW</a>
+              </div>
+          </div>
+      </div>
+      <br /><br />
+      <div class="container">
+          <h2 id="t16">Tesla’s 5 Biggest Competitive Advantages</h2>
+          <ul class="nav nav-tabs">
+              <li class="adv"><a data-toggle="tab" href="#adv1">Battery Supply Chain</a></li>
+              <li class="adv"><a data-toggle="tab" href="#adv2">Supercharger Network</a></li>
+              <li class="adv"><a data-toggle="tab" href="#adv3">Software Updates</a></li>
+              <li class="adv"><a data-toggle="tab" href="#adv4">Branding</a></li>
+              <li class="adv"><a data-toggle="tab" href="#adv5">AI</a></li>
+          </ul>
+
+          <div class="tab-content">
+              <div id="adv1" class="tab-pane fade in active">
+                  <h3>Battery Supply Chain</h3>
+                  <p>Tesla currently produces more batteries in terms of kWh than all other carmakers combined. With the Gigafactory ramping up production and more coming online in time, Tesla’s cost of battery cells continues to decline through economies of scale, innovative manufacturing, reduction of waste, and the simple optimization of locating most manufacturing processes under one roof.</p>
+              </div>
+              <div id="adv2" class="tab-pane fade">
+                  <h3>Supercharger Network</h3>
+                  <p>Tesla’s proprietary superfast-charging stations create efficient recharging opportunities for Tesla’s electric vehicle drivers. Tesla’s current fleet of Superchargers range in power from 72 kW for Tesla’s Urban Superchargers up to 250 kW for the newest Superchargers being installed around the world. Once rolled right into the price of Tesla’s cars, the Supercharger Network is now a pay-as-you-go system. The biggest benefits of the Supercharger network, so far completely unmatched, are how widespread and well integrated the network is for road trips and how easy Supercharging is for Tesla drivers.</p>
+              </div>
+              <div id="adv3" class="tab-pane fade">
+                  <h3>Software Updates</h3>
+                  <p>Over-the-air updates — just like the ones we get on our smartphones, tablets, and computers — continuously improve Tesla’s all-electric vehicles. Updates come fairly frequently. In just the latest update from late June 2020, Tesla provided 7 new software updates: improved traffic light and stop sign control, backup camera improvements, dashcam viewer improvements, walkaway door lock improvements, TuneIn improvements, new language support, and cabin camera. </p>
+              </div>
+              <div id="adv4" class="tab-pane fade">
+                  <h3>Branding</h3>
+                  <p>Tesla provides its customers with exceptional products and good service. While other automakers bemoan all-electric transportation, Tesla has created one of the strongest brands in the world (among all sectors), creating allure for electric cars like many didn’t think possible. </p>
+              </div>
+              <div id="adv5" class="tab-pane fade">
+                  <h3>AI</h3>
+                  <p>Tesla’s autonomous driving capacity, offered at its highest level in the “Full Self Driving” package, is getting better quarter after quarter, with more autonomous features regularly added. Tesla AI analyzes countless images from Tesla owners’ cars while they drive around and uses them to train the autonomous-driver neural nets Tesla keeps developing for its vehicles’ Autopilot/Full Self Driving features. Tesla is now rewriting its software for these features in order to get more out of the hardware. Extrapolating flat 2D video images out into 3D leverages the massive computing power of Tesla’s third-generation hardware to build out a dynamic, geometric world that can then be used for navigation. </p>
+              </div>
+          </div>
+      </div>
+      <br /><br />
+      <div class="container-fluid">
+          <div style="margin-left:-90px;margin-right:20px;" class="row">
+              <div class="col-1"></div>
+              <div class="col-3 text-center">
+                  <img class="product" src="https://tvoe-avto.com/wp-content/uploads/2017-Tesla-Model-3-top-view.jpg" />
+                  <p class="desc">TESLA MODEL 3</p>
+                  <button type="button" class="btn btn-primary btn-lg button1">BUY NOW</button>
+                  <a href="#"><img width="38" src="images/like.png" style="width: 22px"/>Add to favorites</a>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-3 text-center">
+                  <img class="product" src="https://www.formacar.com/storage/images/8/27125/251bcd153e24355c34c71673493b365701.jpg" />
+                  <p class="desc">TESLA MODEL S</p>
+                  <button type="button" class="btn btn-primary btn-lg button1">BUY NOW</button>
+                  <a href="#"><img width="38" src="images/like.png" style="width: 22px"/>Add to favorites</a>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-3 text-center">
+                  <img class="product" src="https://avtodream.org/uploads/posts/2020-07/1596029129_tesla-model-x-rekordno-bystro-proezzhaet-chetvert-mili.jpg" />
+                  <p class="desc">TESLA MODEL X</p>
+                  <button type="button" class="btn btn-primary btn-lg button1">BUY NOW</button>
+                  <a href="#"><img width="38" src="images/like.png" style="width: 22px"/>Add to favorites</a>
+              </div>
+          </div>
+      </div>
+      <br>
+      <div class="container-fluid">
+          <div style="margin-left:-90px;margin-right:20px;" class="row">
+              <div class="col-1"></div>
+              <div class="col-3 text-center">
+                  <img class="product" src="https://cdn.motor1.com/images/mgl/0ByEV/s1/2020-tesla-model-y.jpg" />
+                  <p class="desc">TESLA MODEL Y</p>
+                  <button type="button" class="btn btn-primary btn-lg button1">BUY NOW</button>
+                  <a href="#"><img width="38" src="images/like.png" style="width: 22px"/>Add to favorites</a>
+              </div>
+              <div class="col-1"></div>
+              <div class="col-3 text-center">
+                  <img class="product" src="https://cdn.motor1.com/images/mgl/1GbMM/s1/tesla-cybertruck-hellcat-rendering-by-abimelec-design.jpg" />
+                  <p class="desc">TESLA CYBERTRUCK</p>
+                  <button type="button" class="btn btn-primary btn-lg button1">BUY NOW</button>
+                  <a href="#"><img width="38" src="images/like.png" style="width: 22px"/>Add to favorites</a>
+              </div>
+              <div class="col-1"></div>
+              <div style="margin-top:-30px;" class="col-3 text-center">
+                  <img class="product" src="https://avtoshark.com/wp-content/uploads/2020/06/tesla-roadster.jpg" />
+                  <p class="desc">TESLA ROADSTER</p>
+                  <button type="button" class="btn btn-primary btn-lg button1">BUY NOW</button>
+                  <a href="#"><img width="38" src="images/like.png" style="width: 22px"/>Add to favorites</a>
+              </div>
+          </div>
+      </div>
+      <div class="div5">
+          <div class="container" style="height: 100%;">
+              <div class="row" style="background-color: none; height: 100%;">
+                  <div class="col-lg-2 padd4" style="background-color: none; height: 100%;"></div>
+                  <div class="col-lg-6 padd4" style="background-color: none; height: 100%;">
+                      <div class="d-flex">
+                          <div class="p-2">
+                              <h2 style="font-weight: bold; color: white">CHOOSE PLANET, CHOOSE US</h2>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 padd4" style="background-color: none; height: 100%;">
+                      <button type="button" class="btn btn-primary btn-lg button3">SHOP NOW</button>
+                  </div>
+                  <div class="col-lg-2 padd4" style="background-color: none; height: 100%;"></div>
+              </div>
+          </div>
+      </div>
+      <div class="container div6">
+          <div class="row" style="background-color: none; height: 100%;">
+              <div class="col-lg-2 padd5" style="background-color: none; height: 100%;">
+                  <img src="https://tgraph.io/file/62e05c6ff8718a63b3be2.jpg" width="40px;">
+              </div>
+              <div class="col-lg-2 padd5" style="background-color: none; height: 100%;">
+              </div>
+              <div class="col-lg-2 padd5" style="background-color: none; height: 100%;">
+                  <h5 style="font-weight: bold">TESLA CARS</h5>
+                  <a href="#" class="atext">VIEW ALL</a><br>
+                  <a href="#" class="atext">TESLA MODEL 3</a><br>
+                  <a href="#" class="atext">TESLA MODEL S</a><br>
+                  <a href="#" class="atext">TESLA MODEL X</a><br>
+                  <a href="#" class="atext">TESLA MODEL Y</a><br>
+                  <a href="#" class="atext">TESLA CYBERTRUCK</a><br>
+                  <a href="#" class="atext">TESLA ROADSTER</a><br>
+                  <a href="#" class="atext">SPECIAL OFFERS</a>
+              </div>
+              <div class="col-lg-2 padd5" style="background-color: none; height: 100%;">
+                  <h5 style="font-weight: bold">Support</h5>
+                  <a href="#" class="atext">PRODUCT HELP</a><br>
+                  <a href="#" class="atext">SERVICE & WARRANTY</a><br>
+                  <a href="#" class="atext">CONTACT SUPPORT</a><br>
+                  <a href="#" class="atext">INTERNATIONAL NUMBERS</a><br>
+              </div>
+              <div class="col-lg-2 padd5" style="background-color: none; height: 100%;">
+                  <h5 style="font-weight: bold">Company</h5>
+                  <a href="#" class="atext">ABOUT</a><br>
+                  <a href="#" class="atext">PRESS</a><br>
+                  <a href="#" class="atext">CAREERS</a><br>
+              </div>
+              <div class="col-lg-2 padd5" style="background-color: none; height: 100%;">
+              </div>
+          </div>
+      </div>
+
+      <script src="js/login.js"></script>
+  </body>
+</html>
