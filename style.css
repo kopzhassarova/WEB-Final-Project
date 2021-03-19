@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.adv{
+    padding-left:40px;
+}
+.adv a{
+
+}
+.adv a:hover{
+    background-color:black;
+    color:white;
+    text-decoration:none;
+
+}
+.card-title {
+  color: white;
+  padding-top: 180px;
+  padding-left: 10px;
+}
+
+.padd {
+  padding-left: 45px;
+}
+
+a, a:active, a:focus, a:visited, a:hover {
+  font-size: 18px;
+  color: black;
+}
+
+.div1 {
+  height: 400px;
+  background-color: none;
+  margin-top: 50px;
+}
+
+.div2 {
+  height: 385px;
+  background-color: none;
+  margin-top: 50px;
+}
+.product {
+    width: 100%;
+    margin-top: 10px;
+}
+.text1 {
+  padding: 60px;
+  padding-top: 100px;
+}
+
+h3 {
+  background-color: black;
+  color: white;
+  width: 87%;
+  padding: 5px;
+}
+
+.button1 {
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.button1:hover {
+  background-color: black;
+}
+
+.button2 {
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  border-color: red;
+  margin-top: 25px;
+}
+
+.button2:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+.button3 {
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border-color: white;
+  margin-top: 10px;
+}
+
+.button3:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
+.div3 {
+  background-color: none;
+  height: 300px;
+}
+
+.padd2 {
+  text-align: center;
+  padding: 20px 40px;
+}
+
+.padd3 {
+  text-align: center;
+  padding: 60px 10px;
+}
+
+.padd4 {
+  text-align: center;
+  padding: 58px 10px;
+}
+
+.padd5 {
+  text-align: left;
+  padding: 60px 10px;
+}
+
+.div4 {
+  background-color: #e6e6e6;
+  height: 200px;
+}
+
+.div5 {
+  background-color: black;
+  height: 160px;
+  margin-top:50px;
+}
+
+.div6 {
+  background-color: none;
+  height: 300px;
+}
+
+h2 {
+  text-align: left;
+}
+
+.atext {
+  font-size: 14px;
+}
+
+.atext:hover {
+  font-size: 14px;
+  color: red;
+  text-decoration: none;
+}
+
+.displaythem {
+  display: none;
+}
